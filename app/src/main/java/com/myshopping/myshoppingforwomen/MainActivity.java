@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnfw2 = findViewById(R.id.btnfw2);
         Button btnfw3 = findViewById(R.id.btnfw3);
         Button btnfw4 = findViewById(R.id.btnfw4);
+
         Button btnfa1 = findViewById(R.id.btnfa1);
         Button btnfa2 = findViewById(R.id.btnfa2);
         Button btnfa3 = findViewById(R.id.btnfa3);
@@ -36,11 +37,20 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         Button btnfa14 = findViewById(R.id.btnfa14);
         Button btnfa15 = findViewById(R.id.btnfa15);
         Button btnfa16 = findViewById(R.id.btnfa16);
+        Button btnfa17 = findViewById(R.id.btnfa17);
+
+        Button btnco1 = findViewById(R.id.btnco1);
+        Button btnco2 = findViewById(R.id.btnco2);
+        Button btnco3 = findViewById(R.id.btnco3);
+        Button btnco4 = findViewById(R.id.btnco4);
+        Button btnco5 = findViewById(R.id.btnco5);
+        Button btnco6 = findViewById(R.id.btnco6);
 
         btnfw1.setOnClickListener(this);
         btnfw2.setOnClickListener(this);
         btnfw3.setOnClickListener(this);
         btnfw4.setOnClickListener(this);
+
         btnfa1.setOnClickListener(this);
         btnfa2.setOnClickListener(this);
         btnfa3.setOnClickListener(this);
@@ -57,6 +67,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnfa14.setOnClickListener(this);
         btnfa15.setOnClickListener(this);
         btnfa16.setOnClickListener(this);
+        btnfa17.setOnClickListener(this);
+
+        btnco1.setOnClickListener(this);
+        btnco2.setOnClickListener(this);
+        btnco3.setOnClickListener(this);
+        btnco4.setOnClickListener(this);
+        btnco5.setOnClickListener(this);
+        btnco6.setOnClickListener(this);
     }
 
     @Override
@@ -81,6 +99,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://helankashoes.lk/");
             startActivity(intent);
         }
+
         if (view.getId() == R.id.btnfa1) {
             Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
             intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://mimosaforever.com/");
@@ -159,6 +178,42 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         if (view.getId() == R.id.btnfa16) {
             Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
             intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://kellyfelder.com/");
+            startActivity(intent);
+        }
+        if (view.getId() == R.id.btnfa17) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://cibonline.lk/");
+            startActivity(intent);
+        }
+
+        if (view.getId() == R.id.btnco1) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://viana.lk/");
+            startActivity(intent);
+        }
+        if (view.getId() == R.id.btnco2) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://lk.spaceylon.com/");
+            startActivity(intent);
+        }
+        if (view.getId() == R.id.btnco3) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://www.luvesence.com/");
+            startActivity(intent);
+        }
+        if (view.getId() == R.id.btnco4) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://britishcosmetics.lk/");
+            startActivity(intent);
+        }
+        if (view.getId() == R.id.btnco5) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://janet.lk/");
+            startActivity(intent);
+        }
+        if (view.getId() == R.id.btnco6) {
+            Intent intent = new Intent(MainActivity.this, WebViewActivity.class);
+            intent.putExtra(WebViewActivity.WEBSITE_ADDRESS, "https://foreverskinnaturals.com/");
             startActivity(intent);
         }
     }

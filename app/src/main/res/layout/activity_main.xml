@@ -338,6 +338,108 @@
                             android:textColor="@color/black"
                             android:textStyle="bold" />
 
+                        <Button
+                            android:id="@+id/btnfa17"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="CIB \nShopping \nCenter"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="start"
+                        android:text="Cosmetics"
+                        android:textColor="@color/black"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnco1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="VIANA"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnco2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="SPA \nCEYLON"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnco3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="LuvEsence"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btnco4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="British \nCosmetics"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnco5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="Janet"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/btnco6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:backgroundTint="@color/white"
+                            android:drawableTop="@mipmap/ic_launcher"
+                            android:text="4ever"
+                            android:textColor="@color/black"
+                            android:textStyle="bold" />
+
                     </LinearLayout>
 
                 </LinearLayout>
